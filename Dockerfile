@@ -19,4 +19,4 @@ LABEL org.label-schema.build-date=$BUILD_DATE \
 
 # Install packages
 RUN sudo vca-install-package \
-  cpio isc-dhcp-server squashfs-tools zip
+  cpio dosfstools isc-dhcp-server ovmf python3-pexect squashfs-tools zip
